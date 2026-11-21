@@ -73,3 +73,42 @@ Toda entrega deve distinguir:
 - o que foi testado;
 - o que não foi possível verificar;
 - o que depende de aprovação humana.
+
+
+## 10. Matriz de permissões para IAs
+
+As permissões devem ser definidas pelo projeto e pelo responsável humano. Na ausência de declaração, aplique o nível mais conservador.
+
+| Operação | Condição padrão |
+|---|---|
+| Consultar fontes acessíveis | Permitido, respeitando privacidade e escopo |
+| Comparar, analisar e resumir | Permitido; conclusões devem indicar fontes e limites |
+| Propor mudanças | Permitido; separar proposta de execução |
+| Criar rascunhos ou alterações reversíveis em branch | Permitido quando a tarefa e o escopo foram autorizados |
+| Alterar fonte autoritativa ou propagar mudanças para espelhos | Exige autorização explícita para o escopo |
+| Alterar autoridade, hierarquia, permissões ou política de retenção | Exige aprovação humana explícita |
+| Excluir, sobrescrever ou migrar fontes históricas | Proibido sem autorização específica e plano de preservação/reversão |
+| Publicar dados privados, segredos ou credenciais | Proibido |
+
+A autorização para uma tarefa não deve ser interpretada como autorização irrestrita para ações adjacentes. Se o escopo mudar ou surgir risco não previsto, interrompa a ação afetada e solicite nova aprovação.
+
+## 11. Procedência e evidências
+
+Mudanças e conclusões relevantes devem manter rastreabilidade suficiente para reconstrução:
+- fonte e domínio envolvidos;
+- origem e responsável conhecido;
+- versão, data, commit ou identificador observado;
+- método e escopo de comparação ou verificação;
+- resultado obtido;
+- limitações e itens não verificados;
+- autor da alteração e estado de aprovação.
+
+Diferencie explicitamente **observado**, **declarado**, **inferido**, **proposto**, **executado**, **verificado** e **não verificado**. Não use “sincronizado”, “validado” ou “corrigido” além do que as evidências permitem.
+
+## 12. Ambiguidades e preservação
+
+A resolução de divergências deve seguir o [protocolo de resolução de ambiguidades](../protocols/AMBIGUITY_RESOLUTION.md). Enquanto autoridade, procedência ou permissão permanecer incerta, preserve as fontes e suspenda operações dependentes. A IA pode continuar atividades independentes desde que não amplie o risco.
+
+## 13. Revisão humana e reversibilidade
+
+Antes de uma mudança estrutural ou sensível, apresente objetivo, fontes afetadas, impacto, riscos, reversibilidade e plano de verificação. A aprovação deve ser específica o bastante para identificar o que foi autorizado. Uma aprovação de proposta não comprova que a mudança foi executada ou validada.
