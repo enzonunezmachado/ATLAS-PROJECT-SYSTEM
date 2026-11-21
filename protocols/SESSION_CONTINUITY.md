@@ -51,18 +51,16 @@ O pacote de handoff deve usar linguagem direta, nomes de arquivos e links explí
 - quais ações já foram executadas;
 - quais afirmações ainda precisam de confirmação.
 
+Use o [template SESSION_HANDOFF](../templates/SESSION_HANDOFF_TEMPLATE.md) como ponto de partida e adapte-o ao risco e à complexidade do projeto.
+
 ## 6. Sincronização após retomada
 
 Se houver diferença entre o handoff e o repositório atual, não sobrescreva automaticamente o estado mais recente. Determine a origem e a autoridade de cada informação e registre a divergência.
 
-## 7. Modelo de registro
-
-Um modelo reutilizável será disponibilizado em `templates/` após a definição do conjunto inicial de templates. Até lá, use os campos descritos neste protocolo sem inventar um arquivo oficial inexistente.
-
-## 8. Critérios de sucesso
+## 7. Critérios de sucesso
 
 Uma transferência é bem-sucedida quando a IA receptora consegue identificar o projeto, localizar as fontes autoritativas, explicar o estado atual, distinguir decisões de propostas, reconhecer limites e continuar a tarefa sem duplicar ou destruir trabalho anterior.
 
-## 9. Limites
+## 8. Limites
 
 Um handoff não garante continuidade se as fontes estiverem inacessíveis, desatualizadas, incompletas ou contraditórias. Essas condições devem ser explicitadas.
