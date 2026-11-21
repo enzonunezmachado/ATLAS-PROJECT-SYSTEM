@@ -46,7 +46,7 @@ Decisões, hipóteses, requisitos e capacidades ainda não testadas devem perman
 - `examples/` — casos de referência e testes em projetos reais.
 - `reconstruction/` — recuperação, auditoria e validação do próprio ATLAS.
 
-Consulte [MANIFEST.md](MANIFEST.md) para o inventário oficial e a ordem de leitura.
+Consulte [MANIFEST.md](MANIFEST.md) para o inventário oficial e a ordem de leitura. Veja também o [índice de exemplos](examples/README.md).
 
 ## Princípio essencial
 
