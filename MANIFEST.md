@@ -31,6 +31,12 @@ Este manifesto registra a função dos documentos oficiais do ATLAS, sua autorid
 | `protocols/SESSION_CONTINUITY.md` | Encerramento, retomada e transferência entre IAs | Inicial |
 | `protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md` | Descoberta, identificação e registro de projetos | Inicial |
 | `governance/GOVERNANCE.md` | Regras de mudança, preservação e controle | Inicial |
+| `templates/README.md` | Guia de seleção e uso dos templates | Inicial |
+| `templates/ATLAS_INDEX_TEMPLATE.md` | Estrutura inicial do repositório índice individual | Inicial |
+| `templates/PROJECT_REGISTRY_TEMPLATE.md` | Catálogo resumido de projetos | Inicial |
+| `templates/PROJECT_RECORD_TEMPLATE.md` | Registro detalhado de um projeto | Inicial |
+| `templates/SOURCE_MAP_TEMPLATE.md` | Mapa de fontes, autoridade, relações e verificação | Inicial |
+| `templates/SESSION_HANDOFF_TEMPLATE.md` | Registro de continuidade e transferência de sessão | Inicial |
 
 ## Áreas planejadas
 
@@ -51,10 +57,11 @@ Pastas planejadas podem ainda não conter arquivos. Não as considere implementa
 4. ATLAS_MASTER
 5. Fundação e arquitetura adaptável
 6. Engenharia universal e modelo de memória
-7. Protocolos aplicáveis à tarefa
-8. Governança
-9. Templates e exemplos pertinentes
-10. Reconstrução e validação, quando aplicável
+7. Especificação do ATLAS_INDEX
+8. Protocolos aplicáveis à tarefa
+9. Governança
+10. Templates pertinentes
+11. Exemplos e reconstrução, quando disponíveis e aplicáveis
 
 ## Política de manutenção
 
