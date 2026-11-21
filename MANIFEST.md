@@ -38,15 +38,16 @@ Este manifesto registra a função dos documentos oficiais do ATLAS, sua autorid
 | `templates/README.md` | Guia de seleção e uso dos templates | Inicial |
 | `templates/ATLAS_INDEX_TEMPLATE.md` | Estrutura inicial do repositório índice individual | Inicial |
 | `templates/PROJECT_REGISTRY_TEMPLATE.md` | Catálogo resumido de projetos | Inicial |
-| `templates/PROJECT_RECORD_TEMPLATE.md` | Registro detalhado de um projeto | Inicial |
+| `templates/PROJECT_RECORD_TEMPLATE.md` | Registro detalhado de projeto | Inicial |
 | `templates/SOURCE_MAP_TEMPLATE.md` | Mapa de fontes, autoridade, relações e verificação | Inicial |
 | `templates/SESSION_HANDOFF_TEMPLATE.md` | Registro de continuidade e transferência de sessão | Inicial |
 | `examples/README.md` | Índice de estudos de caso e exemplos contextuais | Inicial |
-| `examples/case-studies/nexus-documentation-evolution/README.md` | Índice do estudo de caso NEXUS | Inicial — caso documentado |
+| `examples/case-studies/nexus-documentation-evolution/README.md` | Índice do estudo de caso NEXUS sobre organização documental | Inicial — caso documentado |
 | `examples/case-studies/nexus-documentation-evolution/01_CONTEXTO_E_PROBLEMA.md` | Contexto e necessidade de organização identificada no NEXUS | Inicial — caso documentado |
 | `examples/case-studies/nexus-documentation-evolution/02_ESTRUTURA_DOCUMENTAL.md` | Estrutura documental aplicada e responsabilidades das pastas | Inicial — caso documentado |
 | `examples/case-studies/nexus-documentation-evolution/03_RASTREABILIDADE_E_ESTADOS.md` | Identificadores, estados e cadeia de evidências | Inicial — caso documentado |
 | `examples/case-studies/nexus-documentation-evolution/04_APRENDIZADOS_PARA_ATLAS.md` | Lições e questões para pesquisa metodológica | Inicial — não normativo |
+| `examples/case-studies/nexus-bidirectional-ai-studio-github/README.md` | Estudo preliminar sobre Pull/Push entre GitHub e Google AI Studio no NEXUS, com mapa de autoridade, limites e riscos de duplicação | Inicial — oportunidade relatada, não validada |
 
 ## Áreas planejadas
 
