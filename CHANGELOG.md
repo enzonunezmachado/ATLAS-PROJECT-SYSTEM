@@ -1,5 +1,16 @@
 # Changelog
 
+## Lote 6 — Estudo de caso NEXUS e organização pós-teste (2026-11-21)
+
+- Criada a área examples/ e seu índice.
+- Adicionado estudo de caso derivado do NEXUS sobre a necessidade de separar experimentos, resultados, problemas, correções, ideias e visão futura.
+- Documentadas as responsabilidades das pastas do experimento e a decisão de manter um catálogo central de ideias, com referências cruzadas em vez de duplicação.
+- Registrados exemplos de IDs e estados para rastrear observação, investigação, aprovação, implementação e validação.
+- Atualizados README, MANIFEST e ATLAS_ENTRYPOINT para incluir exemplos como material opcional e não normativo.
+- O estudo é evidência de uma necessidade prática, não validação geral do ATLAS nem mudança normativa na metodologia.
+- Nenhuma rubrica ou gabarito de avaliação do ATLAS foi incluído no repositório oficial.
+
+
 Mudanças relevantes do ATLAS são registradas aqui. Este arquivo não substitui o histórico de commits.
 
 ## Lote 5 — Preparação da validação prática (integrado em 2026-11-21; materiais do avaliador separados posteriormente)
