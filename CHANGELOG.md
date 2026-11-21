@@ -1,5 +1,15 @@
 # Changelog
 
+## Lote 7 — Estudo preliminar de fluxo GitHub ↔ Google AI Studio no NEXUS (2026-11-21)
+
+- Registrada a oportunidade relatada de usar Pull para trazer arquivos do GitHub ao ambiente Google AI Studio e Push para enviar alterações de volta.
+- Explicitado que, neste caso, a integração está limitada ao repositório `enzonunezmachado/PROJETO-NEXUS-`; os repositórios `NEXUS-DOCUMENTACAO` e `ATLAS-PROJECT-SYSTEM` não estão incluídos nessa conexão.
+- Documentada a distinção entre documentação técnica oficial, memória estratégica, espelho documental, materiais de handoff e artefatos internos do AI Studio.
+- Registrados riscos de duplicação, divergência de versões, conflitos e confusão entre transferência de arquivos e autorização de execução.
+- A possível pasta de handoff no repositório conectado permanece apenas como proposta: nome, estrutura, autoridade e política de cópias não foram decididos.
+- Nenhuma pasta do NEXUS foi criada, movida, renomeada ou removida neste lote; nenhum Pull/Push foi executado.
+- O estudo é contextual e não cria protocolo universal nem comprova o comportamento técnico completo da integração.
+
 ## Lote 6 — Estudo de caso NEXUS e organização pós-teste (2026-11-21)
 
 - Criada a área examples/ e seu índice.
@@ -33,7 +43,7 @@ Mudanças relevantes do ATLAS são registradas aqui. Este arquivo não substitui
 
 - Criado guia de seleção e uso de templates.
 - Criados modelos iniciais para ATLAS_INDEX, catálogo de projetos, registro detalhado de projeto, mapa de fontes e handoff de sessão.
-- O mapa de fontes operacionaliza a distinção entre autoridade por domínio, originais, espelhos, cópias, históricos, sincronização, permissões e limites de verificação.
+- O mapa de fontes operacionaliza a distinção entre autoridade por domínio, originais, espelhos, históricos, sincronização, permissões e limites de verificação.
 - Atualizados manifesto, entrypoint e documento mestre para conectar os modelos aos protocolos.
 - Os templates ainda precisam ser testados em projetos reais e ajustados conforme evidências.
 
