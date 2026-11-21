@@ -22,9 +22,9 @@ Determine se você está estudando a metodologia, contribuindo para o ATLAS ofic
 10. [protocols/CONTEXT_RECOVERY.md](protocols/CONTEXT_RECOVERY.md) — recuperação contextual.
 11. [protocols/AMBIGUITY_RESOLUTION.md](protocols/AMBIGUITY_RESOLUTION.md) — resolução de ambiguidades e divergências.
 12. [protocols/SESSION_CONTINUITY.md](protocols/SESSION_CONTINUITY.md) — continuidade e handoff.
-11. [protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md](protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md) — descoberta de projetos.
-12. [governance/GOVERNANCE.md](governance/GOVERNANCE.md) — governança.
-13. [templates/README.md](templates/README.md) — selecione apenas os templates necessários à tarefa.
+13. [protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md](protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md) — descoberta de projetos.
+14. [governance/GOVERNANCE.md](governance/GOVERNANCE.md) — governança.
+15. [templates/README.md](templates/README.md) — selecione apenas os templates necessários à tarefa.
 
 Não é necessário ler todos os templates em toda sessão. Se um arquivo indicado não existir, registre-o como pendência; não invente seu conteúdo.
 
