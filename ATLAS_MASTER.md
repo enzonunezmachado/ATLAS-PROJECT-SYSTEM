@@ -37,8 +37,8 @@ Uma metodologia que orienta a IA a:
 ### 4.1 ATLAS oficial
 Mantém metodologia, protocolos, templates, exemplos, governança e testes. É público para leitura e tem contribuição controlada.
 
-### 4.2 ATLAS_INDEX individual
-Repositório pessoal que cataloga os projetos de um usuário. Registra identificadores, links, finalidade, estado, versão ATLAS e metadados úteis. Pode ser público ou privado.
+### 4.2 Índice pessoal (função ATLAS_INDEX)
+Repositório pessoal, com nome escolhido livremente pelo usuário, que cataloga seus projetos. `ATLAS_INDEX` designa a função de indexação na metodologia, não um nome obrigatório de repositório. O índice registra identificadores, links, finalidade, estado, versão ATLAS e metadados úteis. Pode ser público ou privado.
 
 ### 4.3 Repositórios individuais de projetos
 Cada projeto mantém seus próprios documentos, artefatos, dados, código e regras. A estrutura é definida conforme suas necessidades e pode incluir múltiplas fontes com autoridades distintas.
@@ -100,7 +100,7 @@ Detalhamento: [modelo de autoridade e procedência](core/SOURCE_AUTHORITY_AND_PR
 
 ## 12. Validação
 
-Uma capacidade só deve ser descrita como validada quando houver teste adequado e evidência registrada. Um documento que descreve um protocolo não prova que o protocolo funciona. Um repositório sincronizado não prova que a aplicação executa corretamente.
+Uma capacidade só deve ser descrita como validada quando houver teste adequado e evidência registrada. Um documento que descreve um protocolo não prova que o protocolo funciona. Critérios detalhados, gabaritos e relatórios de experimentos específicos pertencem ao ambiente do avaliador, fora do fluxo documental entregue normalmente à IA que utiliza o ATLAS. Um repositório sincronizado não prova que a aplicação executa corretamente.
 
 O caso NEXUS é evidência de um problema real observado, não prova antecipada de que o ATLAS já o resolve.
 

@@ -1,6 +1,8 @@
-# ATLAS_INDEX — Índice pessoal de projetos
+# Índice pessoal de projetos — Modelo ATLAS_INDEX
 
 > Este repositório cataloga projetos e aponta para suas fontes. Ele não substitui a documentação de cada projeto.
+>
+> **Nome do repositório:** escolha qualquer nome disponível na sua conta/organização (por exemplo, `MEUS-PROJETOS` ou `FOLLOW-INDEX`). `ATLAS_INDEX` identifica a função do índice na metodologia; não é um nome obrigatório de repositório.
 
 ## Identidade
 

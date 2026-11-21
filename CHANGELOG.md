@@ -2,14 +2,13 @@
 
 Mudanças relevantes do ATLAS são registradas aqui. Este arquivo não substitui o histórico de commits.
 
-## Lote 5 — Validação prática (em preparação; depende de revisão e aprovação)
+## Lote 5 — Preparação da validação prática (integrado em 2026-11-21; materiais do avaliador separados posteriormente)
 
-- Formalizado um modelo para distinguir autoridade por domínio, origem, derivação, espelhos, cópias, históricos e memórias operacionais.
-- Criado protocolo para resolver ambiguidades e divergências sem escolher fontes silenciosamente.
-- Ampliadas as regras de governança sobre consulta, proposta, edição, aprovação e preservação.
-- Reforçados os registros de evidência, escopo de verificação e limitações.
-- Conectados os novos procedimentos ao mapa de fontes, à recuperação contextual e à entrada de IAs.
-- Esta proposta ainda depende de revisão e aprovação antes da integração.
+- Criados inicialmente um protocolo de validação e um modelo de relatório para organizar experimentos com o ATLAS.
+- Após revisão do desenho experimental, os materiais específicos do avaliador — incluindo cenários, critérios, falhas críticas e referências esperadas — foram transferidos para um repositório separado, fora do ATLAS oficial.
+- O repositório público do ATLAS deixa de expor a rubrica e o gabarito dos experimentos às IAs que o consultam para utilizar a metodologia.
+- A validação continua sendo uma atividade baseada em evidências; os documentos de avaliação não fazem parte da sequência operacional normal de leitura do ATLAS.
+- Os cenários ainda precisam ser executados e seus resultados registrados; a criação dos documentos não comprova o funcionamento da metodologia.
 
 ## Lote 4 — Autoridade, procedência e governança (integrado em 2026-11-21)
 
