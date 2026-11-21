@@ -25,12 +25,13 @@ Os templates reduzem o trabalho de inicialização, mas não definem uma estrutu
 
 ## Fluxo recomendado de adoção
 
-1. Crie o ATLAS_INDEX apenas quando houver necessidade e autorização.
-2. Comece pelo template do índice e pelo catálogo.
-3. Registre cada projeto com identificador estável.
-4. Para projetos com múltiplas fontes, construa um mapa de fontes antes de fazer mudanças relevantes.
-5. Ao encerrar uma sessão importante, gere um handoff e mantenha-o coerente com o estado real do projeto.
-6. Revise os registros quando houver mudanças relevantes.
+1. Crie um repositório para o índice pessoal apenas quando houver necessidade e autorização; escolha livremente seu nome no GitHub.
+2. Use o template ATLAS_INDEX como estrutura interna, sem precisar nomear o repositório `ATLAS_INDEX`.
+3. Comece pelo template do índice e pelo catálogo.
+4. Registre cada projeto com identificador estável.
+5. Para projetos com múltiplas fontes, construa um mapa de fontes antes de fazer mudanças relevantes.
+6. Ao encerrar uma sessão importante, gere um handoff e mantenha-o coerente com o estado real do projeto.
+7. Revise os registros quando houver mudanças relevantes.
 
 ## Compatibilidade e limites
 
