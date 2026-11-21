@@ -19,19 +19,24 @@ Este manifesto registra a função dos documentos oficiais do ATLAS, sua autorid
 |---|---|---|
 | `README.md` | Apresentação humana e orientação inicial | Inicial |
 | `ATLAS_ENTRYPOINT.md` | Entrada obrigatória e sequência de leitura para IAs | Inicial |
-| `ATLAS_MASTER.md` | Visão integrada da metodologia e seus limites | Inicial |
 | `MANIFEST.md` | Inventário, autoridade e ordem de leitura | Inicial |
+| `ATLAS_MASTER.md` | Visão integrada da metodologia e seus limites | Inicial |
 | `CHANGELOG.md` | Histórico de mudanças relevantes | Inicial |
 | `core/FOUNDATION.md` | Princípios, conceitos e limites | Inicial |
 | `core/ADAPTIVE_PROJECT_ARCHITECTURE.md` | Análise e evolução de estruturas por projeto | Inicial |
+| `core/UNIVERSAL_PROJECT_ENGINEERING.md` | Método de engenharia aplicável a diferentes tipos de projeto | Inicial |
+| `core/KNOWLEDGE_AND_MEMORY_MODEL.md` | Classes de informação, estados, relações e metadados | Inicial |
+| `core/ATLAS_INDEX_SPECIFICATION.md` | Arquitetura conceitual do índice pessoal | Inicial |
 | `protocols/CONTEXT_RECOVERY.md` | Recuperação, procedência e verificação contextual | Inicial |
+| `protocols/SESSION_CONTINUITY.md` | Encerramento, retomada e transferência entre IAs | Inicial |
+| `protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md` | Descoberta, identificação e registro de projetos | Inicial |
 | `governance/GOVERNANCE.md` | Regras de mudança, preservação e controle | Inicial |
 
 ## Áreas planejadas
 
 - `core/`: fundamentos, modelos conceituais e engenharia universal.
 - `protocols/`: procedimentos reproduzíveis para IAs.
-- `templates/`: artefatos iniciais reutilizáveis.
+- `templates/`: modelos reutilizáveis.
 - `governance/`: autoridade, segurança, permissões, versionamento e manutenção.
 - `examples/`: casos variados, incluindo projetos de software e não software.
 - `reconstruction/`: recuperação, auditoria e testes de reconstrução.
@@ -45,10 +50,11 @@ Pastas planejadas podem ainda não conter arquivos. Não as considere implementa
 3. MANIFEST
 4. ATLAS_MASTER
 5. Fundação e arquitetura adaptável
-6. Protocolos aplicáveis à tarefa
-7. Governança
-8. Templates e exemplos pertinentes
-9. Reconstrução e validação, quando aplicável
+6. Engenharia universal e modelo de memória
+7. Protocolos aplicáveis à tarefa
+8. Governança
+9. Templates e exemplos pertinentes
+10. Reconstrução e validação, quando aplicável
 
 ## Política de manutenção
 
