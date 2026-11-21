@@ -56,3 +56,7 @@ Se encontrar lacuna, contradição ou oportunidade, descreva o problema com evid
 
 A metodologia deve evoluir por evidências e testes, não por improvisação.
 
+
+## 9. Consulte exemplos quando forem úteis
+
+Para comparar soluções documentais ou estudar aplicações anteriores, consulte [examples/README.md](examples/README.md) e os estudos de caso pertinentes. Exemplos são derivados de contextos específicos: não os trate como templates obrigatórios, requisitos universais ou prova de capacidade validada. Identifique sempre o projeto de origem e os limites da evidência.
