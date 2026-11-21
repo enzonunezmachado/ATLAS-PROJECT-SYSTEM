@@ -32,85 +32,75 @@ Uma metodologia que orienta a IA a:
 - Não é uma garantia de que todo conteúdo recuperado seja verdadeiro ou atual.
 - Não é um repositório central de dados privados dos usuários.
 
-A expressão “memória infinita” pode descrever conceitualmente uma memória externa expansível, persistente e independente de uma plataforma, mas não significa capacidade literalmente ilimitada.
-
 ## 4. Arquitetura em três camadas
 
 ### 4.1 ATLAS oficial
-
-Mantém a metodologia, protocolos, templates, exemplos, governança e testes. É público para leitura e tem contribuição controlada.
+Mantém metodologia, protocolos, templates, exemplos, governança e testes. É público para leitura e tem contribuição controlada.
 
 ### 4.2 ATLAS_INDEX individual
-
-Repositório pessoal que cataloga os projetos de um usuário. Registra identificadores, links, finalidade, estado, versão ATLAS e metadados úteis. Pode ser público ou privado conforme decisão do usuário.
+Repositório pessoal que cataloga os projetos de um usuário. Registra identificadores, links, finalidade, estado, versão ATLAS e metadados úteis. Pode ser público ou privado.
 
 ### 4.3 Repositórios individuais de projetos
-
 Cada projeto mantém seus próprios documentos, artefatos, dados, código e regras. A estrutura é definida conforme suas necessidades e pode incluir múltiplas fontes com autoridades distintas.
 
 ## 5. Princípios estruturais
 
-1. **Adaptação:** a estrutura nasce da natureza e das necessidades do projeto.
-2. **Separação de responsabilidades:** cada documento deve ter função clara.
-3. **Autoridade explícita:** fontes de verdade devem ser identificáveis por domínio.
-4. **Procedência:** informações relevantes devem ter origem e relações compreensíveis.
-5. **Temporalidade:** estado vigente, histórico e conteúdo desatualizado não podem ser confundidos.
-6. **Rastreabilidade:** decisões e mudanças importantes precisam de registro.
-7. **Continuidade:** uma nova IA deve conseguir reconstruir o contexto sem depender da conversa anterior.
-8. **Evolução controlada:** a arquitetura documental pode crescer ou mudar sem apagar sua história.
-9. **Segurança:** acesso e permissão são parte do modelo, não um adendo.
-10. **Honestidade operacional:** a IA deve declarar o que verificou, como verificou e o que permanece desconhecido.
-11. **Proporcionalidade:** o custo de manter a estrutura não deve superar seu benefício.
-12. **Controle humano:** ações relevantes e mudanças de risco devem respeitar autorização explícita.
+1. Adaptação.
+2. Separação de responsabilidades.
+3. Autoridade explícita por domínio.
+4. Procedência.
+5. Temporalidade.
+6. Rastreabilidade.
+7. Continuidade.
+8. Evolução controlada.
+9. Segurança.
+10. Honestidade operacional.
+11. Proporcionalidade.
+12. Controle humano.
 
-## 6. Ciclo de vida proposto
+## 6. Ciclo universal de engenharia
 
-1. Descoberta e entendimento.
-2. Análise de natureza, escopo e complexidade.
-3. Projeto da arquitetura documental e operacional.
-4. Inicialização e registro.
-5. Desenvolvimento e captura de conhecimento.
-6. Recuperação e continuidade.
-7. Revisão de integridade e coerência.
-8. Evolução da estrutura.
-9. Arquivamento, transferência ou encerramento.
+O ATLAS orienta descoberta, caracterização, análise de complexidade, modelagem, arquitetura, planejamento, execução, revisão e encerramento ou transição. A aplicação deve ser proporcional à natureza do projeto.
 
-Este ciclo é um modelo de trabalho inicial e deverá ser testado em projetos reais.
+Detalhamento: [UNIVERSAL_PROJECT_ENGINEERING.md](core/UNIVERSAL_PROJECT_ENGINEERING.md).
 
-## 7. Recuperação contextual
+## 7. Conhecimento e memória
 
-A recuperação deve reconstruir não apenas o conteúdo, mas também:
-- quem ou o que produziu a informação;
-- onde ela está armazenada;
-- qual sua finalidade;
-- qual fonte tem autoridade sobre aquele domínio;
-- se é vigente, histórica, espelhada ou operacional;
-- de quais outras fontes depende;
-- quando e como foi verificada;
-- quais alterações são permitidas.
+A memória do projeto pode abranger identidade, objetivos, requisitos, referências, ideias, hipóteses, decisões, estado operacional, execução, histórico, riscos, continuidade e procedência. Essas categorias não exigem arquivos separados.
 
-A metodologia inicial está em [CONTEXT_RECOVERY.md](protocols/CONTEXT_RECOVERY.md).
+Detalhamento: [KNOWLEDGE_AND_MEMORY_MODEL.md](core/KNOWLEDGE_AND_MEMORY_MODEL.md).
 
-## 8. Evolução da arquitetura
+## 8. Recuperação contextual e continuidade
 
-Quando um projeto cresce, a IA deve avaliar se a estrutura continua adequada. Pode propor novos documentos, separação de responsabilidades, índices, registros ou reorganizações. Deve explicar o motivo, mapear referências e preservar conteúdo e histórico. Não deve executar mudanças destrutivas por inferência própria.
+A recuperação deve reconstruir não apenas conteúdo, mas origem, finalidade, autoridade, validade, relações e permissões. A continuidade entre sessões deve transferir estado operacional e referências verificáveis, não apenas um resumo narrativo.
 
-## 9. Validação
+Protocolos:
+- [Recuperação contextual](protocols/CONTEXT_RECOVERY.md).
+- [Continuidade entre sessões e IAs](protocols/SESSION_CONTINUITY.md).
+- [Descoberta e registro de projetos](protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md).
+
+## 9. ATLAS_INDEX
+
+O índice individual cataloga projetos e aponta para seus espaços de trabalho. Não armazena automaticamente todo o conteúdo e não concede acesso a repositórios privados.
+
+Detalhamento: [ATLAS_INDEX_SPECIFICATION.md](core/ATLAS_INDEX_SPECIFICATION.md).
+
+## 10. Evolução da arquitetura
+
+Quando um projeto cresce, a IA deve avaliar se a estrutura continua adequada. Pode propor novos documentos, separação de responsabilidades, índices, registros ou reorganizações. Deve explicar o motivo, mapear referências e dependências, preservar histórico e obter autorização para mudanças sensíveis.
+
+## 11. Validação
 
 Uma capacidade só deve ser descrita como validada quando houver teste adequado e evidência registrada. Um documento que descreve um protocolo não prova que o protocolo funciona. Um repositório sincronizado não prova que a aplicação executa corretamente.
 
-O ATLAS será avaliado em projetos de naturezas diferentes, incluindo o caso NEXUS, que revelou falhas de interpretação de hierarquia documental. Esse caso é evidência de um problema real observado, não prova antecipada de que o ATLAS já o resolve.
+O caso NEXUS é evidência de um problema real observado, não prova antecipada de que o ATLAS já o resolve.
 
-## 10. Estado e próximos módulos
+## 12. Próximos módulos
 
-A fundação está sendo estabelecida. Os próximos módulos deverão detalhar:
-- engenharia universal e diagnóstico de projetos;
-- modelo de memória e conhecimento;
-- continuidade e handoff entre IAs;
-- ATLAS_INDEX e registro de projetos;
-- descoberta, reconhecimento e recuperação;
-- governança e segurança;
-- templates e exemplos;
-- reconstrução, auditoria e testes.
+- Templates operacionais do ATLAS_INDEX, registro de projeto e handoff.
+- Governança detalhada de fontes, permissões, privacidade e segurança.
+- Exemplos de aplicação em projetos de diferentes naturezas.
+- Reconstrução, auditoria e testes de aceitação.
+- Avaliação de ferramentas e integrações opcionais.
 
 Mudanças nesta visão devem ser registradas e refletidas nos documentos dependentes.
