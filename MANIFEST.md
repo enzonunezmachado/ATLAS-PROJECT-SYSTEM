@@ -42,6 +42,13 @@ Este manifesto registra a função dos documentos oficiais do ATLAS, sua autorid
 | `templates/SOURCE_MAP_TEMPLATE.md` | Mapa de fontes, autoridade, relações e verificação | Inicial |
 | `templates/SESSION_HANDOFF_TEMPLATE.md` | Registro de continuidade e transferência de sessão | Inicial |
 
+| examples/README.md | Índice de estudos de caso e exemplos contextuais | Inicial |
+| examples/case-studies/nexus-documentation-evolution/README.md | Índice do estudo de caso NEXUS | Inicial — caso documentado |
+| examples/case-studies/nexus-documentation-evolution/01_CONTEXTO_E_PROBLEMA.md | Contexto e necessidade de organização identificada no NEXUS | Inicial — caso documentado |
+| examples/case-studies/nexus-documentation-evolution/02_ESTRUTURA_DOCUMENTAL.md | Estrutura documental aplicada e responsabilidades das pastas | Inicial — caso documentado |
+| examples/case-studies/nexus-documentation-evolution/03_RASTREABILIDADE_E_ESTADOS.md | Identificadores, estados e cadeia de evidências | Inicial — caso documentado |
+| examples/case-studies/nexus-documentation-evolution/04_APRENDIZADOS_PARA_ATLAS.md | Lições e questões para pesquisa metodológica | Inicial — não normativo |
+
 ## Áreas planejadas
 
 - `core/`: fundamentos, modelos conceituais e engenharia universal.
