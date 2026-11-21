@@ -2,7 +2,7 @@
 
 Mudanças relevantes do ATLAS são registradas aqui. Este arquivo não substitui o histórico de commits.
 
-## Lote 4 — Autoridade, procedência e governança (proposto para revisão)
+## Lote 5 — Validação prática (em preparação; depende de revisão e aprovação)
 
 - Formalizado um modelo para distinguir autoridade por domínio, origem, derivação, espelhos, cópias, históricos e memórias operacionais.
 - Criado protocolo para resolver ambiguidades e divergências sem escolher fontes silenciosamente.
@@ -10,6 +10,14 @@ Mudanças relevantes do ATLAS são registradas aqui. Este arquivo não substitui
 - Reforçados os registros de evidência, escopo de verificação e limitações.
 - Conectados os novos procedimentos ao mapa de fontes, à recuperação contextual e à entrada de IAs.
 - Esta proposta ainda depende de revisão e aprovação antes da integração.
+
+## Lote 4 — Autoridade, procedência e governança (integrado em 2026-11-21)
+
+- Formalizado um modelo para distinguir autoridade por domínio, origem, derivação, espelhos, cópias, históricos e memórias operacionais.
+- Criado protocolo para resolver ambiguidades e divergências sem escolher fontes silenciosamente.
+- Ampliadas as regras de governança sobre consulta, proposta, edição, aprovação e preservação.
+- Reforçados os registros de evidência, escopo de verificação e limitações.
+- Conectados os novos procedimentos ao mapa de fontes, à recuperação contextual e à entrada de IAs.
 
 ## Lote 3 — Templates operacionais (integrado em 2026-11-21)
 

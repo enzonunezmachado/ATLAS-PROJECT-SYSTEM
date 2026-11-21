@@ -55,3 +55,8 @@ Não comece implementação enquanto houver ambiguidade crítica sobre a fonte d
 Se encontrar lacuna, contradição ou oportunidade, descreva o problema com evidência, identifique documentos afetados e diferencie requisito, hipótese e proposta. Não altere silenciosamente a metodologia.
 
 A metodologia deve evoluir por evidências e testes, não por improvisação.
+
+
+## 9. Valide antes de declarar a metodologia funcional
+
+Quando a tarefa for avaliar o ATLAS ou seus protocolos, consulte o [protocolo de validação prática](reconstruction/VALIDATION_PROTOCOL.md) e registre cada execução no [relatório de validação](reconstruction/VALIDATION_REPORT.md). Diferencie inspeção documental, aplicação assistida, teste de contexto limpo e validação independente. Não apresente simulação ou familiaridade prévia do agente como teste cego. Não declare aprovação global sem evidências e sem registrar limitações.
