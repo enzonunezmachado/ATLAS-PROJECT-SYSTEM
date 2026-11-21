@@ -11,7 +11,15 @@ Mudanças relevantes do ATLAS são registradas aqui. Este arquivo não substitui
 - Conectados os novos procedimentos ao mapa de fontes, à recuperação contextual e à entrada de IAs.
 - Esta proposta ainda depende de revisão e aprovação antes da integração.
 
-## Lote 4 — Autoridade, procedência e governança (integrado em 2026-11-21)\n\n- Formalizado um modelo para distinguir autoridade por domínio, origem, derivação, espelhos, cópias, históricos e memórias operacionais.\n- Criado protocolo para resolver ambiguidades e divergências sem escolher fontes silenciosamente.\n- Ampliadas as regras de governança sobre consulta, proposta, edição, aprovação e preservação.\n- Reforçados os registros de evidência, escopo de verificação e limitações.\n- Conectados os novos procedimentos ao mapa de fontes, à recuperação contextual e à entrada de IAs.\n\n## Lote 3 — Templates operacionais (integrado em 2026-11-21)
+## Lote 4 — Autoridade, procedência e governança (integrado em 2026-11-21)
+
+- Formalizado um modelo para distinguir autoridade por domínio, origem, derivação, espelhos, cópias, históricos e memórias operacionais.
+- Criado protocolo para resolver ambiguidades e divergências sem escolher fontes silenciosamente.
+- Ampliadas as regras de governança sobre consulta, proposta, edição, aprovação e preservação.
+- Reforçados os registros de evidência, escopo de verificação e limitações.
+- Conectados os novos procedimentos ao mapa de fontes, à recuperação contextual e à entrada de IAs.
+
+## Lote 3 — Templates operacionais (integrado em 2026-11-21)
 
 - Criado guia de seleção e uso de templates.
 - Criados modelos iniciais para ATLAS_INDEX, catálogo de projetos, registro detalhado de projeto, mapa de fontes e handoff de sessão.
