@@ -92,6 +92,8 @@ Não mova, substitua, renomeie, sobrescreva ou exclua fontes por parecerem redun
 | Verificação | Método e resultado |
 | Limitações | O que não foi possível confirmar |
 
+Para projetos com múltiplas fontes, use o [template SOURCE_MAP](../templates/SOURCE_MAP_TEMPLATE.md) como instrumento de registro. O template não substitui as declarações de autoridade do próprio projeto nem a verificação das fontes.
+
 ## 4. Modelo de declaração de verificação
 
 Use linguagem explícita, por exemplo:
