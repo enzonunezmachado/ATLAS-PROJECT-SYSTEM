@@ -92,13 +92,19 @@ Os templates fornecem estruturas de partida para o índice, catálogo, registro 
 
 Quando um projeto cresce, a IA deve avaliar se a estrutura continua adequada. Pode propor novos documentos, separação de responsabilidades, índices, registros ou reorganizações. Deve explicar o motivo, mapear referências e dependências, preservar histórico e obter autorização para mudanças sensíveis.
 
-## 11. Validação
+## 11. Autoridade, procedência e ambiguidades
+
+A autoridade das fontes deve ser definida por domínio e sustentada por declarações ou evidências identificáveis. Origem, responsável pela manutenção, autoridade, localização, estado temporal, integridade e sincronização são conceitos distintos. Cópias, espelhos, derivações, arquivos históricos e memórias operacionais não devem ser tratados como fontes equivalentes. Quando houver divergência ou autoridade incerta, a IA deve interromper a ação dependente, investigar a procedência e aplicar o protocolo de resolução de ambiguidades, escalando ao responsável humano quando necessário.
+
+Detalhamento: [modelo de autoridade e procedência](core/SOURCE_AUTHORITY_AND_PROVENANCE.md) e [protocolo de resolução de ambiguidades](protocols/AMBIGUITY_RESOLUTION.md).
+
+## 12. Validação
 
 Uma capacidade só deve ser descrita como validada quando houver teste adequado e evidência registrada. Um documento que descreve um protocolo não prova que o protocolo funciona. Um repositório sincronizado não prova que a aplicação executa corretamente.
 
 O caso NEXUS é evidência de um problema real observado, não prova antecipada de que o ATLAS já o resolve.
 
-## 12. Próximos módulos
+## 13. Próximos módulos
 
 - Governança detalhada de fontes, permissões, privacidade e segurança.
 - Exemplos de aplicação em projetos de diferentes naturezas.
