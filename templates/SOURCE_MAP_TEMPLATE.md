@@ -11,15 +11,15 @@ Este mapa explica onde está a informação, para que cada fonte existe, qual do
 
 ## 2. Inventário de fontes
 
-| ID | Fonte/localização | Responsável/origem | Finalidade | Domínio | Estado |
-|---|---|---|---|---|---|
-| SRC-001 | [URL/caminho] | [origem] | [finalidade] | [código/requisitos/decisões/operação/histórico etc.] | [vigente/histórico/desconhecido] |
+| ID | Fonte/localização | Origem | Responsável pela manutenção | Finalidade | Domínio | Estado |
+|---|---|---|---|---|---|---|
+| SRC-001 | [URL/caminho] | [origem primária/derivada/desconhecida] | [responsável] | [finalidade] | [código/requisitos/decisões/operação/histórico etc.] | [vigente/histórico/desconhecido] |
 
 ## 3. Autoridade por domínio
 
-| Domínio | Fonte autoritativa | Regra/evidência da autoridade | Fontes complementares | Situação |
-|---|---|---|---|---|
-| [Ex.: documentação técnica vigente] | [SRC-001] | [declaração, política ou evidência] | [SRC-002] | [confirmada/ambígua] |
+| Domínio | Fonte autoritativa | Regra/evidência da autoridade | Responsável | Fontes complementares | Limites/exceções | Situação |
+|---|---|---|---|---|---|---|
+| [Ex.: documentação técnica vigente] | [SRC-001] | [declaração, política ou evidência] | [responsável] | [SRC-002] | [limites] | [confirmada/ambígua] |
 
 A autoridade pode variar por domínio. Se não houver regra clara, registre como desconhecida ou ambígua; não escolha silenciosamente.
 
@@ -65,3 +65,27 @@ Não classifique toda diferença como conflito. Preserve conteúdo histórico at
 ## 9. Critério de atualização
 
 Atualize este mapa quando uma fonte mudar de localização, finalidade, autoridade, relação, versão, sincronização ou permissão. Registre a revisão e preserve o histórico relevante.
+
+
+## 10. Cadeia de procedência e transformação
+
+| Informação/documento | Fonte de origem | Transformação | Destino/derivado | Responsável | Evidência/versão |
+|---|---|---|---|---|---|
+| [item] | [SRC-001] | [cópia/resumo/exportação/transformação] | [SRC-002] | [responsável] | [commit/data/registro] |
+
+## 11. Responsabilidade e aprovação
+
+- **Responsável pela autoridade do projeto:** [pessoa/equipe]
+- **Responsáveis por domínio:** [domínio → responsável]
+- **Quem pode propor alterações:** [papéis]
+- **Quem pode executar alterações:** [papéis e escopo]
+- **Quem aprova alterações sensíveis:** [responsável]
+- **Restrições adicionais:** [regras]
+
+## 12. Histórico de revisões do mapa
+
+| Data | Responsável | Escopo revisado | Alterações | Evidências |
+|---|---|---|---|---|
+| [AAAA-MM-DD] | [responsável] | [escopo] | [resumo] | [links/commits/registros] |
+
+A atualização deste mapa não altera, por si só, a autoridade das fontes. Mudanças de autoridade devem ser aprovadas pelo responsável competente e registradas na fonte ou política que governa o projeto.

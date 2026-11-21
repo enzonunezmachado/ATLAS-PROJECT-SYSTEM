@@ -18,17 +18,19 @@ Determine se você está estudando a metodologia, contribuindo para o ATLAS ofic
 6. [core/UNIVERSAL_PROJECT_ENGINEERING.md](core/UNIVERSAL_PROJECT_ENGINEERING.md) — engenharia universal.
 7. [core/KNOWLEDGE_AND_MEMORY_MODEL.md](core/KNOWLEDGE_AND_MEMORY_MODEL.md) — memória e conhecimento.
 8. [core/ATLAS_INDEX_SPECIFICATION.md](core/ATLAS_INDEX_SPECIFICATION.md) — índice pessoal.
-9. [protocols/CONTEXT_RECOVERY.md](protocols/CONTEXT_RECOVERY.md) — recuperação contextual.
-10. [protocols/SESSION_CONTINUITY.md](protocols/SESSION_CONTINUITY.md) — continuidade e handoff.
-11. [protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md](protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md) — descoberta de projetos.
-12. [governance/GOVERNANCE.md](governance/GOVERNANCE.md) — governança.
-13. [templates/README.md](templates/README.md) — selecione apenas os templates necessários à tarefa.
+9. [core/SOURCE_AUTHORITY_AND_PROVENANCE.md](core/SOURCE_AUTHORITY_AND_PROVENANCE.md) — autoridade e procedência das fontes.
+10. [protocols/CONTEXT_RECOVERY.md](protocols/CONTEXT_RECOVERY.md) — recuperação contextual.
+11. [protocols/AMBIGUITY_RESOLUTION.md](protocols/AMBIGUITY_RESOLUTION.md) — resolução de ambiguidades e divergências.
+12. [protocols/SESSION_CONTINUITY.md](protocols/SESSION_CONTINUITY.md) — continuidade e handoff.
+13. [protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md](protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md) — descoberta de projetos.
+14. [governance/GOVERNANCE.md](governance/GOVERNANCE.md) — governança.
+15. [templates/README.md](templates/README.md) — selecione apenas os templates necessários à tarefa.
 
 Não é necessário ler todos os templates em toda sessão. Se um arquivo indicado não existir, registre-o como pendência; não invente seu conteúdo.
 
 ## 3. Reconstrua a autoridade antes de interpretar
 
-Inventarie as fontes acessíveis; identifique finalidade, origem, domínio, estado, relações, autoridade, versão, sincronização e permissões. Diferencie fonte oficial, espelho, cópia, arquivo histórico e memória operacional. Separe fatos, declarações, hipóteses, inferências e desconhecidos. Quando houver múltiplas fontes relevantes, use o [modelo de mapa de fontes](templates/SOURCE_MAP_TEMPLATE.md) como apoio.
+Inventarie as fontes acessíveis; identifique finalidade, origem, domínio, estado, relações, autoridade, versão, sincronização e permissões. Determine autoridade por domínio, não por nome de arquivo ou data isolada. Diferencie originais, fontes oficiais, espelhos, cópias, derivações, arquivos históricos e memórias operacionais. Registre a cadeia de procedência e separe fatos observados, declarações, hipóteses, inferências e desconhecidos. Use o [modelo de autoridade e procedência](core/SOURCE_AUTHORITY_AND_PROVENANCE.md) e o [mapa de fontes](templates/SOURCE_MAP_TEMPLATE.md). Se houver divergência ou autoridade incerta, siga o [protocolo de resolução de ambiguidades](protocols/AMBIGUITY_RESOLUTION.md) antes de agir.
 
 ## 4. Preserve antes de modificar
 

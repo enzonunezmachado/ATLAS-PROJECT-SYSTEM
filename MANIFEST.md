@@ -9,6 +9,8 @@ Este manifesto registra a função dos documentos oficiais do ATLAS, sua autorid
 - O `ATLAS_ENTRYPOINT.md` define a entrada e a sequência inicial para IAs.
 - O `ATLAS_MASTER.md` consolida a visão integrada, mas não anula regras específicas dos documentos especializados.
 - Documentos especializados governam seus respectivos domínios.
+- A autoridade de fontes de um projeto deve ser identificada por domínio; origem, localização, integridade e recência não substituem uma declaração de autoridade.
+- Ambiguidades sobre autoridade, procedência ou divergências devem seguir o protocolo próprio; a IA não pode escolher silenciosamente nem alterar fontes sensíveis para resolver incertezas.
 - Exemplos demonstram aplicações; não criam regras universais por si só.
 - Templates são pontos de partida, não estruturas obrigatórias.
 - Histórico e changelog registram evolução; não devem ser tratados automaticamente como instruções vigentes.
@@ -27,7 +29,9 @@ Este manifesto registra a função dos documentos oficiais do ATLAS, sua autorid
 | `core/UNIVERSAL_PROJECT_ENGINEERING.md` | Método de engenharia aplicável a diferentes tipos de projeto | Inicial |
 | `core/KNOWLEDGE_AND_MEMORY_MODEL.md` | Classes de informação, estados, relações e metadados | Inicial |
 | `core/ATLAS_INDEX_SPECIFICATION.md` | Arquitetura conceitual do índice pessoal | Inicial |
+| `core/SOURCE_AUTHORITY_AND_PROVENANCE.md` | Modelo de autoridade por domínio, procedência e relações entre fontes | Inicial — não validado |
 | `protocols/CONTEXT_RECOVERY.md` | Recuperação, procedência e verificação contextual | Inicial |
+| `protocols/AMBIGUITY_RESOLUTION.md` | Tratamento de ambiguidades, divergências e bloqueios de decisão | Inicial — não validado |
 | `protocols/SESSION_CONTINUITY.md` | Encerramento, retomada e transferência entre IAs | Inicial |
 | `protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md` | Descoberta, identificação e registro de projetos | Inicial |
 | `governance/GOVERNANCE.md` | Regras de mudança, preservação e controle | Inicial |
