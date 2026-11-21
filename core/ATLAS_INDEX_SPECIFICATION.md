@@ -82,7 +82,7 @@ Fluxo esperado:
 
 ## 10. Templates iniciais
 
-- [Template do repositório ATLAS_INDEX](../templates/ATLAS_INDEX_TEMPLATE.md)
+- [Template do índice pessoal](../templates/ATLAS_INDEX_TEMPLATE.md)
 - [Template do catálogo de projetos](../templates/PROJECT_REGISTRY_TEMPLATE.md)
 - [Template de registro detalhado de projeto](../templates/PROJECT_RECORD_TEMPLATE.md)
 
