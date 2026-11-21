@@ -1,0 +1,951 @@
+Pensou por 39s
+
+### Relatório técnico de recuperação contextual — NEXUS
+
+Investigação documentalModo somente leituraValidação parcial
+
+Data da investigação: 21 de novembro de 2026 Metodologia solicitada: ATLAS — ATLAS-PROJECT-SYSTEM Projeto investigado: NEXUS
+
+### 1\. Escopo e critérios de investigação
+
+A investigação considera três repositórios distintos:
+
+* ATLAS-PROJECT-SYSTEM — metodologia que deve orientar a recuperação.
+
+* PROJETO-NEXUS- — primeiro repositório do projeto.
+
+* NEXUS-DOCUMENTACAO — segundo repositório do projeto.
+
+Adotarei quatro categorias para classificar as evidências:
+
+* Fato confirmado: informação diretamente verificável na fonte.
+
+* Declaração documental: informação afirmada por um documento, ainda sem confirmação independente.
+
+* Inferência: interpretação fundamentada na relação entre evidências.
+
+* Não verificado: informação para a qual ainda não há evidência suficiente.
+
+Nenhum repositório será modificado. Também não considerarei nomes de pastas, datas de atualização ou localização de documentos como prova isolada de autoridade.
+
+### 2\. Recuperação da metodologia ATLAS
+
+Resultado: repositório oficial localizado e acessível.
+
+Fonte: [ATLAS-PROJECT-SYSTEM — GitHub](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM?utm_source=chatgpt.com).
+
+O README confirma que ATLAS é um sistema metodológico de memória e engenharia de projetos, não um repositório central onde os projetos devem ser incorporados.
+
+### 2.1. Fundamentos recuperados
+
+O ATLAS estabelece três camadas:
+
+| Camada                   | Responsabilidade                              |
+| ------------------------ | --------------------------------------------- |
+| ATLAS oficial            | Metodologia, protocolos, governança e padrões |
+| ATLAS_INDEX individual   | Catálogo de projetos                          |
+| Repositórios de projetos | Código, documentos e artefatos próprios       |
+
+O README também determina que uma IA que assume um projeto deve primeiro recuperar o contexto e respeitar a governança, em vez de começar criando arquivos ou alterando estruturas.
+
+Isso é especialmente importante nesta tarefa: a recuperação deve preceder qualquer implementação.
+
+### 2.2. Estrutura metodológica identificada
+
+O repositório oficial apresenta:
+
+* `core/`: fundamentos e arquitetura conceitual.
+
+* `protocols/`: procedimentos operacionais para IAs.
+
+* `templates/`: modelos reutilizáveis.
+
+* `governance/`: autoridade, permissões, integridade e mudanças.
+
+* `ATLAS_ENTRYPOINT.md`: ponto de entrada obrigatório.
+
+* `ATLAS_MASTER.md`: referência central.
+
+* `MANIFEST.md`: inventário e ordem de leitura.
+
+O próprio ATLAS reconhece que está em construção. Portanto, seus fundamentos devem ser aplicados respeitando as limitações e o grau de validação de cada procedimento.
+
+Limitação desta etapa: o README foi recuperado, mas a aplicação integral da metodologia depende da leitura do ENTRYPOINT, MANIFEST e protocolos específicos de recuperação. Não considero a simples leitura do README suficiente para declarar a metodologia integralmente aplicada.
+
+### 3\. Primeira descoberta: identidade do NEXUS
+
+Identidade documental confirmada
+
+Os dois repositórios fornecidos estão acessíveis e apresentam uma relação explícita entre si.
+
+O NEXUS identificado nas fontes é:
+
+Um aplicativo Android de gestão pessoal, com arquitetura offline-first, desenvolvido em Kotlin e Jetpack Compose.
+
+A descrição pública do repositório documental menciona os seguintes domínios:
+
+* Tarefas.
+
+* Projetos.
+
+* Finanças.
+
+* Eventos.
+
+* Objetivos.
+
+* Rotinas diárias.
+
+* Armazenamento local.
+
+* Notificações.
+
+* Widgets nativos da tela inicial.
+
+Fonte: [NEXUS-DOCUMENTACAO — página principal](https://github.com/enzonunezmachado/NEXUS-DOCUMENTACAO?utm_source=chatgpt.com).
+
+O README do repositório ativo identifica sua documentação como a planta de produto e engenharia do aplicativo.
+
+Fonte: [PROJETO-NEXUS- — README](https://github.com/enzonunezmachado/PROJETO-NEXUS-?utm_source=chatgpt.com).
+
+### 3.1. Relação inicial entre os repositórios
+
+PROJETO-NEXUS-
+
+Código Android e documentação técnica mantida junto ao aplicativo
+
+Sincronização documental declarada
+
+NEXUS-DOCUMENTACAO
+
+Memória técnica, estratégica e histórica
+
+GOOGLE_IA/
+
+Espelho da documentação técnica
+
+CHATGPT/
+
+Memória estratégica e evolução das decisões
+
+Esta relação não é apenas uma interpretação baseada nos nomes das pastas. O README do repositório documental declara expressamente:
+
+* `GOOGLE_IA/` contém documentação técnica sincronizada do repositório ativo.
+
+* `CHATGPT/` preserva a memória estratégica das conversas.
+
+* O código ativo é a fonte de verdade da implementação.
+
+* O repositório documental não deve ser confundido com o repositório de implementação.
+
+Essa declaração é uma evidência importante de procedência, embora a sincronização efetiva ainda precise ser verificada arquivo por arquivo.
+
+### 4\. Aplicação dos protocolos ATLAS
+
+A leitura do ENTRYPOINT revelou uma sequência obrigatória de recuperação, não apenas uma lista de documentos.
+
+Fontes:
+
+* [ATLAS_ENTRYPOINT.md](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM/blob/main/ATLAS_ENTRYPOINT.md?utm_source=chatgpt.com)
+
+* [MANIFEST.md](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM/blob/main/MANIFEST.md?utm_source=chatgpt.com)
+
+* [CONTEXT_RECOVERY.md](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM/blob/main/protocols/CONTEXT_RECOVERY.md?utm_source=chatgpt.com)
+
+* [AMBIGUITY_RESOLUTION.md](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM/blob/main/protocols/AMBIGUITY_RESOLUTION.md?utm_source=chatgpt.com)
+
+* [SOURCE_AUTHORITY_AND_PROVENANCE.md](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM/blob/main/core/SOURCE_AUTHORITY_AND_PROVENANCE.md?utm_source=chatgpt.com)
+
+* [PROJECT_DISCOVERY_AND_REGISTRATION.md](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM/blob/main/protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md?utm_source=chatgpt.com)
+
+### 4.1. Procedimentos aplicados
+
+| Procedimento           | Aplicação nesta investigação                                              |
+| ---------------------- | ------------------------------------------------------------------------- |
+| Descoberta             | Identificação dos dois repositórios e sua relação                         |
+| Recuperação contextual | Inventário de documentação e código anunciado                             |
+| Autoridade             | Separação entre implementação, documentação técnica e memória estratégica |
+| Procedência            | Identificação de espelhos e documentos históricos                         |
+| Ambiguidade            | Preservação de divergências sem resolução arbitrária                      |
+| Continuidade           | Registro de contexto recuperado e pontos ainda desconhecidos              |
+| Governança             | Respeito à restrição de não modificar os repositórios                     |
+
+Uma observação metodológica importante: o MANIFEST classifica os protocolos de autoridade e resolução de ambiguidades como iniciais e ainda não validados. Assim, eles são procedimentos de referência do próprio ATLAS, não garantias de que sua metodologia já tenha sido validada universalmente.
+
+### 4.2. Critério fundamental de autoridade
+
+O ATLAS distingue conceitos que frequentemente são confundidos:
+
+* Origem da informação.
+
+* Responsável pela manutenção.
+
+* Autoridade sobre determinado domínio.
+
+* Localização física.
+
+* Estado temporal.
+
+* Integridade.
+
+* Sincronização.
+
+* Procedência.
+
+Consequentemente, uma cópia pode ser útil e confiável para consulta sem ser a autoridade original.
+
+Essa distinção será aplicada especialmente à pasta `GOOGLE_IA/`.
+
+### 5\. Mapa documental do NEXUS
+
+### 5.1. Repositório ativo: PROJETO-NEXUS-
+
+[Abrir repositório PROJETO-NEXUS-](https://github.com/enzonunezmachado/PROJETO-NEXUS-?utm_source=chatgpt.com)
+
+Branch observada: main · 19 commits apresentados na página consultada.
+
+O repositório apresenta uma estrutura Android, com componentes de aplicação, documentação, configuração Gradle e recursos de desenvolvimento.
+
+| Caminho            | Função identificada                | Autoridade                     |
+| ------------------ | ---------------------------------- | ------------------------------ |
+| app/               | Aplicativo Android                 | Implementação                  |
+| app/src/           | Código-fonte da aplicação          | Implementação                  |
+| app/src/test/      | Testes unitários                   | Evidência de testes existentes |
+| docs/              | Documentação técnica e governança  | Referência técnica             |
+| build.gradle.kts   | Configuração do projeto Android    | Configuração técnica           |
+| gradle/            | Configuração e dependências Gradle | Configuração técnica           |
+| .github/workflows/ | Automação e integração contínua    | Evidência operacional          |
+
+A função de `app/` e `docs/` está sustentada pela árvore e pelos documentos do próprio repositório. Não foi possível inspecionar individualmente todos os arquivos internos das pastas.
+
+### 5.2. Documentação técnica vigente
+
+O README de `PROJETO-NEXUS-/docs/` apresenta uma organização numerada de 01 a 13, complementada por um histórico metodológico.
+
+| Arquivo                      | Responsabilidade                                 |
+| ---------------------------- | ------------------------------------------------ |
+| README.md                    | Índice, hierarquia da verdade e ordem de leitura |
+| 01_DOCUMENTO_MESTRE.md       | Visão geral e identidade do produto              |
+| 02_ESPECIFICACAO_PRODUTO.md  | Requisitos e regras funcionais                   |
+| 03_ARQUITETURA_ENGENHARIA.md | Arquitetura técnica                              |
+| 04_MODELO_DADOS.md           | Banco de dados, migrações e backup               |
+| 05_FLUXOS_COMPORTAMENTOS.md  | Fluxos funcionais                                |
+| 06_DESIGN_SYSTEM.md          | Identidade visual e componentes                  |
+| 07_ESTADO_ATUAL.md           | Auditoria do estado real                         |
+| 08_QUALIDADE_SEGURANCA.md    | Qualidade, segurança e testes                    |
+| 09_GUIA_DESENVOLVIMENTO.md   | Convenções e procedimentos técnicos              |
+| 10_ROADMAP.md                | Concluídos, pendências e planejamento            |
+| 11_DECISOES_ADRS.md          | Decisões arquiteturais                           |
+| 12_RASTREABILIDADE.md        | Relação entre requisitos e implementação         |
+| 13_GOVERNANCA_DOCUMENTAL.md  | Governança das ideias e decisões                 |
+| HISTORICO_DOCUMENTACAO.md    | Evolução da documentação                         |
+
+Fonte principal: [README técnico do NEXUS](https://github.com/enzonunezmachado/PROJETO-NEXUS-?utm_source=chatgpt.com).
+
+A documentação não é apenas descritiva. Ela possui uma estrutura de rastreabilidade que permite relacionar requisitos, funcionalidades, módulos, componentes, dados, fluxos, testes e decisões arquiteturais.
+
+### 5.3. Repositório documental: NEXUS-DOCUMENTACAO
+
+[Abrir NEXUS-DOCUMENTACAO](https://github.com/enzonunezmachado/NEXUS-DOCUMENTACAO?utm_source=chatgpt.com)
+
+Branch observada: main · 91 commits apresentados na página consultada.
+
+A estrutura principal contém quatro elementos:
+
+| Caminho                            | Natureza    | Função                               |
+| ---------------------------------- | ----------- | ------------------------------------ |
+| GOOGLE_IA/                         | Técnica     | Espelho documental                   |
+| CHATGPT/                           | Estratégica | Memória das conversas e decisões     |
+| docs/                              | Histórica   | Documentação de organização anterior |
+| NEXUS_ARCHITECTURE_AND_PROGRESS.md | Histórico   | Registro de fase anterior            |
+
+Uma distinção relevante:
+
+`docs/` não é apresentada como uma terceira documentação técnica vigente.
+
+O README declara que essa pasta preserva documentos anteriores, incluindo Documento Mestre histórico, decisões de UX, especificações antigas e logs de revisão.
+
+Portanto, seu conteúdo tem valor para recuperar a evolução do projeto, mas não deve ser usado automaticamente para descrever sua arquitetura atual.
+
+### 5.4. Espelhamento e independência das fontes
+
+Relação de origem declarada
+
+O README de `NEXUS-DOCUMENTACAO`, seção 3, informa que:
+
+* `GOOGLE_IA/` foi sincronizada com a branch `main` do repositório ativo.
+
+* Foram sincronizados 13 documentos técnicos numerados, um histórico metodológico, três documentos arquivados e um índice.
+
+* Os 18 arquivos foram comparados com a origem e declarados idênticos byte a byte.
+
+* A recuperação estratégica em `CHATGPT/` é parcial, não uma transcrição integral das conversas.
+
+Isso significa que os documentos de `GOOGLE_IA/` e seus correspondentes em `PROJETO-NEXUS-/docs/` não devem ser contados como duas confirmações independentes.
+
+Cadeia de procedência declarada
+
+* Origem técnica
+
+    `PROJETO-NEXUS-/docs/`
+
+* Sincronização controlada
+
+    Cópia declarada como idêntica byte a byte.
+
+* Destino documental
+
+    `NEXUS-DOCUMENTACAO/GOOGLE_IA/`
+
+A igualdade byte a byte é uma declaração do README. Não foi reproduzida nesta investigação por comparação de hashes ou conteúdo integral dos 18 arquivos.
+
+A memória em `CHATGPT/` tem outra natureza. Ela pode explicar motivações, propostas e decisões, mas não comprova que determinada funcionalidade exista no aplicativo.
+
+Esta é uma das regras mais importantes para evitar reconstruções equivocadas.
+
+### 6\. Identidade, objetivo e arquitetura do produto
+
+### 6.1. Propósito recuperado
+
+O Documento Mestre define o NEXUS como um centro de comando pessoal e financeiro, não simplesmente um gerenciador de tarefas.
+
+Seu problema central é a fragmentação das informações pessoais: tarefas em um aplicativo, compromissos em outro, despesas em outro e objetivos sem integração.
+
+O produto procura reunir esses domínios em um núcleo compartilhado, evitando duplicidade de registros.
+
+Fonte: `PROJETO-NEXUS-/docs/01_DOCUMENTO_MESTRE.md`, seções 1 e 2.
+
+[Consultar Documento Mestre](https://github.com/enzonunezmachado/PROJETO-NEXUS-/blob/main/docs/01_DOCUMENTO_MESTRE.md?utm_source=chatgpt.com)
+
+### 6.2. Princípios de produto identificados
+
+| Princípio              | Interpretação                                              |
+| ---------------------- | ---------------------------------------------------------- |
+| Offline-first          | O núcleo deve funcionar sem conexão                        |
+| Soberania dos dados    | Dados pessoais permanecem no dispositivo                   |
+| Fonte única da verdade | Um registro não deve ser duplicado em vários módulos       |
+| Integração contextual  | Os módulos compartilham referências                        |
+| Evolução incremental   | Evitar reescritas desnecessárias                           |
+| Privacidade            | Não exigir conta ou backend proprietário                   |
+| Backup portátil        | Preservar a possibilidade de exportar e restaurar os dados |
+
+Há também uma diretriz estratégica de gratuidade do uso essencial e preferência por integrações externas opcionais.
+
+Fonte: `NEXUS-DOCUMENTACAO/CHATGPT/04_DECISOES_ESTRATEGICAS.md`.
+
+[Consultar decisões estratégicas](https://raw.githubusercontent.com/enzonunezmachado/NEXUS-DOCUMENTACAO/main/CHATGPT/04_DECISOES_ESTRATEGICAS.md?utm_source=chatgpt.com).
+
+### 6.3. Arquitetura técnica recuperada
+
+Interface
+
+Kotlin + Jetpack Compose
+
+Aplicativo Android nativo
+
+Camada de aplicação
+
+NexusAppRoot · NexusViewModel
+
+Estado reativo e coordenação
+
+Domínio
+
+NexusRepository · Domain Rules
+
+Regras de negócio e integração entre módulos
+
+Room / SQLite
+
+### 27
+
+Tabelas
+
+Stores externos
+
+### JSON
+
+Mercado e widgets
+
+Representação conceitual baseada em `03_ARQUITETURA_ENGENHARIA.md` e `04_MODELO_DADOS.md`, não um diagrama extraído diretamente do código.
+
+Características técnicas documentadas:
+
+* Kotlin 2.1.0.
+
+* Java 17.
+
+* Jetpack Compose e Material 3.
+
+* Room 2.6.1.
+
+* KSP.
+
+* WorkManager.
+
+* AlarmManager.
+
+* Jetpack Glance.
+
+* Coroutines e Flow.
+
+* Injeção manual de dependências por `AppContainer`.
+
+* Módulo Gradle único `:app`.
+
+* Arquitetura MVVM + Repository + regras de domínio.
+
+Não há backend remoto na arquitetura principal documentada.
+
+Fontes:
+
+* [Arquitetura de Engenharia](https://github.com/enzonunezmachado/PROJETO-NEXUS-/blob/main/docs/03_ARQUITETURA_ENGENHARIA.md?utm_source=chatgpt.com).
+
+* [Modelo de Dados](https://raw.githubusercontent.com/enzonunezmachado/PROJETO-NEXUS-/main/docs/04_MODELO_DADOS.md?utm_source=chatgpt.com).
+
+* [build.gradle.kts](https://raw.githubusercontent.com/enzonunezmachado/PROJETO-NEXUS-/main/app/build.gradle.kts?utm_source=chatgpt.com).
+
+* [settings.gradle.kts](https://raw.githubusercontent.com/enzonunezmachado/PROJETO-NEXUS-/main/settings.gradle.kts?utm_source=chatgpt.com).
+
+### 6.4. Uma particularidade importante do repositório ativo
+
+A inspeção encontrou uma questão que merece registro.
+
+A raiz de `PROJETO-NEXUS-` contém também:
+
+* `src/`
+
+* `public/assets/aistudio/`
+
+* `index.html`
+
+* `vite.config.ts`
+
+* `package.json`
+
+* `bun.lock`
+
+O `package.json` apresenta o nome `react-example`, dependências React, Vite, Express e Google GenAI.
+
+Já `settings.gradle.kts` declara `rootProject.name = "NEXUS"` e inclui somente `:app`.
+
+Interpretação: existe uma camada de arquivos associada ao ambiente web/Google AI Studio convivendo com o projeto Android. Não há evidência suficiente nesta investigação para afirmar que ela constitui um segundo produto NEXUS, uma interface complementar ativa ou somente um conjunto de artefatos de desenvolvimento.
+
+Isso precisa ser confirmado antes de qualquer limpeza ou reorganização da raiz.
+
+Fontes:
+
+* [package.json](https://raw.githubusercontent.com/enzonunezmachado/PROJETO-NEXUS-/main/package.json?utm_source=chatgpt.com).
+
+* [settings.gradle.kts](https://raw.githubusercontent.com/enzonunezmachado/PROJETO-NEXUS-/main/settings.gradle.kts?utm_source=chatgpt.com).
+
+* [Árvore do repositório](https://github.com/enzonunezmachado/PROJETO-NEXUS-?utm_source=chatgpt.com).
+
+### 7\. Estado atual: implementação e conclusão
+
+Baseline técnica documentada em 20/11/2026
+
+O documento `07_ESTADO_ATUAL.md` declara uma auditoria por inspeção dos arquivos-fonte Kotlin, XML, KTS, TOML e YAML.
+
+A versão registrada é:
+
+Versão Android
+
+### 5.2.0
+
+versionCode 7
+
+Room
+
+### v6
+
+27 entidades e DAOs
+
+Backup JSON
+
+### v7
+
+Compatibilidade v1–v7 declarada
+
+Testes unitários
+
+### 15
+
+Arquivos JUnit identificados
+
+Fonte: `07_ESTADO_ATUAL.md`, seção 2.
+
+### 7.1. Matriz de implementação
+
+A tabela abaixo representa os estados declarados pela auditoria técnica, não resultados de testes executados nesta sessão.
+
+| Área                                  | Estado documentado                         |
+| ------------------------------------- | ------------------------------------------ |
+| Navegação principal                   | Implementada                               |
+| Dashboard                             | Implementado                               |
+| Tarefas e Kanban                      | Implementados, com inconsistência residual |
+| Recorrência de tarefas                | Implementada                               |
+| Agenda                                | Implementada, com inconsistência residual  |
+| Financeiro                            | Implementado                               |
+| Eventos                               | Parcialmente implementados                 |
+| Mercado financeiro                    | Implementado                               |
+| Objetivos pessoais                    | Implementados                              |
+| Assistente de rotina                  | Implementado                               |
+| Notificações                          | Implementadas                              |
+| Widgets Glance                        | Implementados                              |
+| Busca global                          | Implementada                               |
+| Backup JSON v7                        | Implementado                               |
+| Backup ZIP com mídias                 | Pendente                                   |
+| Recorrência de compromissos e eventos | Não implementada                           |
+
+Fontes:
+
+* [Auditoria do estado atual](https://github.com/enzonunezmachado/PROJETO-NEXUS-/blob/main/docs/07_ESTADO_ATUAL.md?utm_source=chatgpt.com).
+
+* [Roadmap consolidado](https://github.com/enzonunezmachado/PROJETO-NEXUS-/blob/main/docs/10_ROADMAP.md?utm_source=chatgpt.com).
+
+### 7.2. O que está efetivamente concluído segundo o roadmap
+
+Um dos avanços mais significativos é o módulo Mercado Financeiro.
+
+Os lotes 01 a 09 são declarados concluídos, incluindo:
+
+* Infraestrutura de consultas a provedores públicos.
+
+* Suporte a 12 ativos.
+
+* Histórico de preços.
+
+* Gráficos.
+
+* Watchlist.
+
+* Alertas locais de preços.
+
+* Integração com backup v7.
+
+* Auditoria e correções de integração.
+
+O módulo é apresentado como concluído e encerrado, embora melhorias opcionais possam ser avaliadas mediante solicitação.
+
+Outras funcionalidades documentadas como implementadas incluem o núcleo financeiro, o dashboard, os objetivos, a rotina, as notificações e os quatro widgets.
+
+### 7.3. O que ainda não está comprovado
+
+É essencial distinguir implementação declarada de validação operacional.
+
+A auditoria informa que:
+
+* Existem 15 arquivos de testes unitários.
+
+* Não existem testes instrumentados `androidTest`.
+
+* O pipeline GitHub Actions está configurado para executar testes unitários e gerar APK.
+
+* Não foi possível confirmar execução real de builds e testes no ambiente da auditoria.
+
+* O APK não foi validado em dispositivo físico.
+
+* A exportação ZIP ainda não foi produzida e inspecionada.
+
+O documento de sincronização de 21/11/2026 confirma que não foram executados builds, testes Android ou inspeção de ZIP naquela sincronização.
+
+Isso não significa que o projeto não compile. Significa que não existe evidência apresentada nesta recuperação que permita afirmar que a compilação e a validação funcional da versão atual foram concluídas com sucesso.
+
+Fontes:
+
+* [Baseline e auditoria](https://github.com/enzonunezmachado/PROJETO-NEXUS-/blob/main/docs/07_ESTADO_ATUAL.md?utm_source=chatgpt.com).
+
+* [Estado da sincronização](https://raw.githubusercontent.com/enzonunezmachado/NEXUS-DOCUMENTACAO/main/GOOGLE_IA/ESTADO_DA_SINCRONIZACAO.md?utm_source=chatgpt.com).
+
+### 8\. Decisões recuperadas
+
+A recuperação encontrou dois conjuntos de decisões que precisam permanecer separados: decisões estratégicas e decisões técnicas.
+
+### 8.1. Decisões estratégicas
+
+Fonte: `NEXUS-DOCUMENTACAO/CHATGPT/04_DECISOES_ESTRATEGICAS.md`.
+
+| ID          | Decisão recuperada                                                      | Estado declarado     |
+| ----------- | ----------------------------------------------------------------------- | -------------------- |
+| DEC-STR-001 | NEXUS como centro de comando pessoal, não apenas gerenciador de tarefas | Consolidada          |
+| DEC-STR-002 | Gratuidade do uso essencial                                             | Diretriz consolidada |
+| DEC-STR-003 | Autonomia dos dados e operação offline                                  | Diretriz consolidada |
+| DEC-STR-004 | Separação entre memória estratégica e realidade técnica                 | Aprovada             |
+| DEC-STR-005 | Evolução incremental e preservação                                      | Consolidada          |
+| DEC-STR-006 | Memória duradoura em repositório GitHub separado                        | Aprovada             |
+| DEC-STR-007 | Ideias, propostas e implementações como estados diferentes              | Aprovada             |
+
+Essas informações recuperam a direção do produto, mas a classificação de aprovação é a registrada na memória estratégica. Não tive acesso às conversas originais para confirmar individualmente todos os contextos e aprovações.
+
+[Registro das decisões estratégicas](https://raw.githubusercontent.com/enzonunezmachado/NEXUS-DOCUMENTACAO/main/CHATGPT/04_DECISOES_ESTRATEGICAS.md?utm_source=chatgpt.com).
+
+### 8.2. Decisões arquiteturais
+
+O documento `11_DECISOES_ADRS.md` registra 14 ADRs, com estados e consequências.
+
+Um exemplo particularmente importante:
+
+ADR-001 — Navegação por estado reativo, sem NavHost.
+
+* Estado: aceita e ativa.
+
+* Navegação gerenciada por `MainTab`, `SubRoute` e `ActiveEditor`.
+
+* `BackHandler` utiliza regras próprias de navegação.
+
+* A dependência `navigation-compose` permanece declarada, embora não seja utilizada.
+
+Outro exemplo:
+
+ADR-002 — Injeção manual de dependências por AppContainer.
+
+* Estado: aceita e ativa.
+
+* Inicialização centralizada em `NexusApplication`.
+
+* Repassagem manual de dependências para ViewModels e workers.
+
+Fontes: `PROJETO-NEXUS-/docs/11_DECISOES_ADRS.md`, ADR-001 e ADR-002.
+
+[Registro de ADRs](https://github.com/enzonunezmachado/PROJETO-NEXUS-/blob/main/docs/11_DECISOES_ADRS.md?utm_source=chatgpt.com).
+
+A validade atual dessas decisões é sustentada pelo estado declarado nos ADRs e pela arquitetura documentada. Não realizei uma auditoria independente de todos os 14 registros.
+
+### 8.3. Questões estratégicas ainda não decididas
+
+A memória estratégica identifica explicitamente como não confirmadas:
+
+* Arquitetura de assistente de IA integrado.
+
+* Integrações adicionais com serviços Google.
+
+* Escopo final de personalização da Home.
+
+* Recorrência de compromissos e eventos.
+
+* Estratégia definitiva de backup ZIP e mídias.
+
+Não devem ser transformadas em requisitos aprovados.
+
+### 9\. Pendências e riscos
+
+Esta seção consolida as pendências mais importantes encontradas.
+
+### 9.1. Pendências técnicas
+
+Prioridade de investigação
+
+| ID / Tema             | Situação                                                            | Risco                                              |
+| --------------------- | ------------------------------------------------------------------- | -------------------------------------------------- |
+| INT-01                | Motor legado de agenda ainda coexistindo com AgendaEngine           | Divergência entre telas                            |
+| INT-03                | Subtarefas podem ser persistidas antes da confirmação de salvamento | Perda de controle sobre alterações descartadas     |
+| Eventos evoluídos     | Localização, banners e fluxos complementares pendentes              | Funcionalidade incompleta                          |
+| Backup ZIP            | Exportação/restauração com mídias pendente                          | Backup não contempla todos os artefatos planejados |
+| Recorrência           | Compromissos e eventos ainda sem recorrência                        | Limitação funcional                                |
+| Navegação             | Dependência declarada, mas não utilizada                            | Dívida de manutenção                               |
+| Modularização         | Arquivos centrais muito extensos                                    | Manutenção e legibilidade                          |
+| Testes instrumentados | Não identificados                                                   | Cobertura insuficiente de cenários Android         |
+
+Fonte: `PROJETO-NEXUS-/docs/10_ROADMAP.md`, seções 2 e 3.
+
+[Pendências e dívidas técnicas](https://github.com/enzonunezmachado/PROJETO-NEXUS-/blob/main/docs/10_ROADMAP.md?utm_source=chatgpt.com).
+
+### 9.2. Riscos de qualidade e operação
+
+Há um ponto de atenção especialmente importante:
+
+O aplicativo utiliza Room para dados estruturados, mas também possui persistência independente em SharedPreferences e arquivos locais.
+
+Isso significa que a consistência de backup e restauração depende de coordenar diferentes mecanismos de persistência.
+
+O próprio roadmap registra a necessidade de validar a coordenação Room × arquivos/SharedPreferences durante interrupções.
+
+Outro ponto: a existência de testes unitários não substitui testes reais de:
+
+* Migrações de banco.
+
+* Restauração de backups.
+
+* Notificações em versões diferentes do Android.
+
+* Doze e reinicialização do dispositivo.
+
+* Deep-links.
+
+* Widgets.
+
+* Operações reais de rede.
+
+Fonte: `NEXUS-DOCUMENTACAO/CHATGPT/06_PENDENCIAS_E_DIRECAO_FUTURA.md`.
+
+[Pendências estratégicas e direção futura](https://raw.githubusercontent.com/enzonunezmachado/NEXUS-DOCUMENTACAO/main/CHATGPT/06_PENDENCIAS_E_DIRECAO_FUTURA.md?utm_source=chatgpt.com).
+
+### 9.3. Ambiguidades que exigem atenção humana
+
+A1 — Arquivos web na raiz do projeto
+
+Não resolvido
+
+A presença de React, Vite, Express e Google GenAI ao lado do módulo Android não está suficientemente explicada.
+
+É necessário confirmar se esses arquivos são artefatos de desenvolvimento, uma aplicação auxiliar ou parte de outra iniciativa.
+
+A2 — Estado do ambiente Google AI Studio
+
+Acesso não realizado
+
+Os documentos citam artefatos como `NEXUS_CONTINUIDADE.md` e `NEXUS_PRODUCT_SPEC.md`.
+
+Não tive acesso ao ambiente interno para confirmar seu conteúdo atual.
+
+A3 — Aprovações estratégicas
+
+Recuperação parcial
+
+O próprio repositório documental reconhece que a memória das conversas não é integral.
+
+Algumas justificativas, datas e aprovações originais podem estar ausentes.
+
+A4 — Sincronização
+
+Declaração documentada
+
+O estado da sincronização registra igualdade dos 18 hashes de arquivos Markdown.
+
+Não reproduzi a comparação diretamente. Também não confirmei se todos os artefatos internos do AI Studio correspondem à versão atual.
+
+### 9.4. Um cuidado sobre a ordem temporal
+
+O README técnico registra revisão em 20/11/2026.
+
+O arquivo `GOOGLE_IA/ESTADO_DA_SINCRONIZACAO.md` registra sincronização em 21/11/2026.
+
+Isso fornece uma cadeia temporal coerente, mas não prova, isoladamente, que nenhum commit ou alteração posterior tenha ocorrido.
+
+A data de sincronização não deve ser confundida com a data de uma auditoria funcional.
+
+### 10\. Próximos passos recomendados
+
+Minha recomendação é preservar a arquitetura e a documentação atuais e avançar na seguinte sequência.
+
+* Confirmar a natureza dos arquivos web na raiz
+
+    Identificar se `src/`, `index.html`, `package.json` e os demais artefatos do Google AI Studio pertencem ao fluxo ativo de desenvolvimento Android ou a uma aplicação complementar.
+
+    Justificativa: evita alterações acidentais em componentes cuja finalidade ainda não foi estabelecida.
+
+* Conferir o estado operacional da versão 5.2.0
+
+    Consultar os resultados mais recentes de GitHub Actions e, mediante ambiente apropriado, executar testes e build.
+
+    Justificativa: separar o estado documentado do estado efetivamente validado.
+
+* Revisar as inconsistências INT-01 e INT-03
+
+    Confirmar sua permanência no código e avaliar os impactos antes de planejar correções.
+
+    Justificativa: são problemas concretos de coerência funcional.
+
+* Revalidar o fluxo de backup
+
+    Investigar Room, SharedPreferences, arquivos JSON, compatibilidade v1–v7 e o planejamento do ZIP.
+
+    Justificativa: preservar os dados dos usuários é uma responsabilidade central do produto.
+
+* Recuperar o contexto estratégico que falta
+
+    Consultar os documentos históricos e, se autorizado, os registros originais das conversas e do Google AI Studio.
+
+    Justificativa: melhorar a compreensão das decisões sem inventar justificativas retroativas.
+
+* Confirmar prioridades com o responsável pelo projeto
+
+    Reavaliar o roadmap e definir qual lote deve receber prioridade.
+
+    Justificativa: prioridades sugeridas não equivalem a autorização para execução.
+
+Nenhuma dessas atividades foi iniciada como implementação nesta investigação.
+
+### 11\. Continuidade — informações para a próxima IA
+
+Esta é a parte mais importante para evitar que o próximo responsável precise repetir a recuperação.
+
+### 11.1. Contexto operacional consolidado
+
+NEXUS — Registro de continuidade
+
+Identidade
+
+Aplicativo Android
+
+Stack
+
+Kotlin + Compose
+
+Versão documentada
+
+5.2.0
+
+Banco
+
+Room v6
+
+Backup
+
+JSON v7
+
+Repositório de código
+
+PROJETO-NEXUS-
+
+Memória documental
+
+NEXUS-DOCUMENTACAO
+
+Regras que devem ser preservadas
+
+* Não confundir ideias com requisitos.
+
+* Não confundir propostas com decisões.
+
+* Não confundir aprovação com implementação.
+
+* Não confundir implementação com validação.
+
+* Não considerar espelhos fontes independentes.
+
+* Não modificar documentos históricos sem compreender sua procedência.
+
+* Consultar o código e a documentação técnica antes de implementar.
+
+* Solicitar autorização quando necessária.
+
+### 11.2. Sequência recomendada de leitura para a próxima IA
+
+A próxima sessão não precisa reler todos os arquivos indiscriminadamente.
+
+Recomendo esta ordem:
+
+* `PROJETO-NEXUS-/docs/README.md`
+
+* `01_DOCUMENTO_MESTRE.md`
+
+* `07_ESTADO_ATUAL.md`
+
+* `10_ROADMAP.md`
+
+* `11_DECISOES_ADRS.md`
+
+* `13_GOVERNANCA_DOCUMENTAL.md`
+
+* `03_ARQUITETURA_ENGENHARIA.md`
+
+* `04_MODELO_DADOS.md`
+
+* `05_FLUXOS_COMPORTAMENTOS.md`
+
+* `08_QUALIDADE_SEGURANCA.md`
+
+* `12_RASTREABILIDADE.md`
+
+* `NEXUS-DOCUMENTACAO/CHATGPT/README.md`
+
+* Os documentos estratégicos pertinentes à tarefa.
+
+O README técnico determina uma ordem própria para compreender o produto; a sequência acima é uma seleção operacional para retomada, não uma substituição da ordem oficial.
+
+### 11.3. Referências essenciais
+
+Fontes de autoridade
+
+* [Código Android](https://github.com/enzonunezmachado/PROJETO-NEXUS-/tree/main/app?utm_source=chatgpt.com)
+
+* [Documentação técnica vigente](https://github.com/enzonunezmachado/PROJETO-NEXUS-/tree/main/docs?utm_source=chatgpt.com)
+
+* [Memória estratégica](https://github.com/enzonunezmachado/NEXUS-DOCUMENTACAO/tree/main/CHATGPT?utm_source=chatgpt.com)
+
+* [Espelho técnico](https://github.com/enzonunezmachado/NEXUS-DOCUMENTACAO/tree/main/GOOGLE_IA?utm_source=chatgpt.com)
+
+* [Documentação histórica](https://github.com/enzonunezmachado/NEXUS-DOCUMENTACAO/tree/main/docs?utm_source=chatgpt.com)
+
+    Metodologia
+
+* [ATLAS_ENTRYPOINT](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM/blob/main/ATLAS_ENTRYPOINT.md?utm_source=chatgpt.com)
+
+* [MANIFEST](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM/blob/main/MANIFEST.md?utm_source=chatgpt.com)
+
+* [Recuperação contextual](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM/blob/main/protocols/CONTEXT_RECOVERY.md?utm_source=chatgpt.com)
+
+* [Continuidade](https://github.com/enzonunezmachado/ATLAS-PROJECT-SYSTEM/blob/main/protocols/SESSION_CONTINUITY.md?utm_source=chatgpt.com)
+
+### 12\. Encerramento e avaliação da recuperação
+
+### 12.1. Resultado geral
+
+### Recuperação substancial
+
+A identidade do NEXUS, a função dos dois repositórios, a hierarquia documental, os princípios do produto, a arquitetura declarada, as decisões estratégicas e as principais pendências foram recuperados.
+
+Avaliação de confiança por domínio
+
+| Domínio                              | Confiança |
+| ------------------------------------ | --------- |
+| Identidade e propósito               |           |
+| Função dos repositórios              |           |
+| Hierarquia documental                |           |
+| Arquitetura declarada                |           |
+| Estado documentado                   |           |
+| Validação operacional                |           |
+| Histórico estratégico completo       |           |
+| Natureza dos arquivos web auxiliares |           |
+
+### 12.2. Limitações da investigação
+
+Não foram realizados:
+
+* Clone integral dos repositórios.
+
+* Comparação independente dos 18 hashes.
+
+* Inspeção de todos os arquivos Kotlin.
+
+* Execução de builds ou testes.
+
+* Instalação do aplicativo em dispositivo Android.
+
+* Inspeção de APK ou backup ZIP.
+
+* Acesso às conversas originais.
+
+* Acesso ao ambiente privado do Google AI Studio.
+
+* Inspeção integral de todos os documentos históricos e das 14 ADRs.
+
+A metodologia ATLAS foi aplicada nos procedimentos pertinentes de descoberta, recuperação, autoridade, procedência, temporalidade e continuidade. A leitura do acervo metodológico foi substancial, mas não integral: alguns documentos especializados e templates não foram examinados individualmente.
+
+Também é importante registrar que o próprio ATLAS classifica sua metodologia como inicial e em construção.
+
+### 12.3. Conclusão técnica
+
+O NEXUS não é um projeto recém-iniciado nem um simples conjunto de ideias.
+
+Existe uma aplicação Android com arquitetura identificada, persistência local estruturada, módulos funcionais documentados, decisões arquiteturais registradas e um sistema de documentação dividido entre engenharia e memória estratégica.
+
+A estrutura documental apresenta uma separação particularmente importante:
+
+* O repositório ativo responde pelo que existe tecnicamente.
+
+* O espelho GOOGLE_IA facilita a continuidade da engenharia.
+
+* CHATGPT preserva a evolução conceitual e estratégica.
+
+* O acervo histórico preserva a trajetória anterior do projeto.
+
+A principal preocupação para a continuidade não é reconstruir o aplicativo. É preservar sua coerência, validar seu estado operacional e evitar que decisões antigas, propostas ou cópias documentais sejam confundidas com a realidade atual.
+
+Estado final da tarefa
+
+Próximo passo recomendado: confirmar com o responsável pelo NEXUS a natureza dos arquivos web existentes na raiz de `PROJETO-NEXUS-` e, em seguida, autorizar ou não uma auditoria operacional da versão 5.2.0.
+
+A investigação termina aqui. Nenhuma alteração está autorizada ou foi realizada. Aguardo orientação humana para qualquer continuidade.
