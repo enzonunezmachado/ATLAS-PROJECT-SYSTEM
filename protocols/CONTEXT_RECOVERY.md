@@ -118,3 +118,14 @@ Nesses casos, documente a ambiguidade e faça a pergunta mais específica possí
 ## 6. Limites do protocolo
 
 Este protocolo é uma proposta inicial. Sua eficácia precisa ser testada com projetos reais, diferentes estruturas e diferentes IAs. Cumprir a sequência documental não garante compreensão correta; os resultados devem ser avaliados por critérios observáveis.
+
+
+## 7. Autoridade, procedência e ambiguidades
+
+A identificação de autoridade deve ser feita por domínio e sustentada por uma declaração do projeto ou evidência identificável. Registre separadamente origem, responsável pela manutenção, localização, autoridade, estado temporal, integridade e sincronização. Não conclua que um arquivo é oficial apenas por ser mais recente, estar em determinada pasta ou ter nome semelhante a outro.
+
+Quando uma fonte for derivada, espelhada, copiada ou exportada, registre a origem, a direção da relação, o escopo e as transformações conhecidas. Resumos produzidos por IA são derivados e não substituem automaticamente a fonte original.
+
+Se houver autoridade concorrente, divergência, fonte inacessível ou permissões incertas, aplique o [protocolo de resolução de ambiguidades](AMBIGUITY_RESOLUTION.md). Suspenda apenas a ação que depende da decisão, quando possível, e peça esclarecimento específico ao responsável. Não sobrescreva, mova, funda ou exclua fontes para eliminar a ambiguidade.
+
+Consulte também o [modelo de autoridade e procedência](../core/SOURCE_AUTHORITY_AND_PROVENANCE.md).
