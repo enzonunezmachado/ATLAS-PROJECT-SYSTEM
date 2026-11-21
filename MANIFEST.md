@@ -33,7 +33,7 @@ Este manifesto registra a função dos documentos oficiais do ATLAS, sua autorid
 | `protocols/CONTEXT_RECOVERY.md` | Recuperação, procedência e verificação contextual | Inicial |
 | `protocols/AMBIGUITY_RESOLUTION.md` | Tratamento de ambiguidades, divergências e bloqueios de decisão | Inicial — não validado |
 | `protocols/SESSION_CONTINUITY.md` | Encerramento, retomada e transferência entre IAs | Inicial |
-| `protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md` | Descoberta, identificação e registro de projetos | Inicial |
+| `protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md` | Descoberta, identificação e registro de projetos | Inicial |\n| `reconstruction/VALIDATION_PROTOCOL.md` | Protocolo para validação prática, controlada e baseada em evidências | Inicial — não validado |\n| `reconstruction/VALIDATION_REPORT.md` | Registro de execuções, evidências, falhas, limitações e resultados | Inicial — em branco |
 | `governance/GOVERNANCE.md` | Regras de mudança, preservação e controle | Inicial |
 | `templates/README.md` | Guia de seleção e uso dos templates | Inicial |
 | `templates/ATLAS_INDEX_TEMPLATE.md` | Estrutura inicial do repositório índice individual | Inicial |
