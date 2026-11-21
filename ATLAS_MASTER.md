@@ -79,11 +79,14 @@ Protocolos:
 - [Continuidade entre sessões e IAs](protocols/SESSION_CONTINUITY.md).
 - [Descoberta e registro de projetos](protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md).
 
-## 9. ATLAS_INDEX
+## 9. ATLAS_INDEX e templates operacionais
 
 O índice individual cataloga projetos e aponta para seus espaços de trabalho. Não armazena automaticamente todo o conteúdo e não concede acesso a repositórios privados.
 
-Detalhamento: [ATLAS_INDEX_SPECIFICATION.md](core/ATLAS_INDEX_SPECIFICATION.md).
+Especificação: [ATLAS_INDEX_SPECIFICATION.md](core/ATLAS_INDEX_SPECIFICATION.md).  
+Modelos iniciais: [guia de templates](templates/README.md).
+
+Os templates fornecem estruturas de partida para o índice, catálogo, registro de projeto, mapa de fontes e handoff. Seu uso deve ser seletivo e proporcional; copiar um template não substitui a definição de autoridade, permissões ou validação do projeto.
 
 ## 10. Evolução da arquitetura
 
@@ -97,7 +100,6 @@ O caso NEXUS é evidência de um problema real observado, não prova antecipada 
 
 ## 12. Próximos módulos
 
-- Templates operacionais do ATLAS_INDEX, registro de projeto e handoff.
 - Governança detalhada de fontes, permissões, privacidade e segurança.
 - Exemplos de aplicação em projetos de diferentes naturezas.
 - Reconstrução, auditoria e testes de aceitação.
