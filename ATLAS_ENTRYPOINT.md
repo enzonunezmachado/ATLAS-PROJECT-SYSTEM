@@ -22,12 +22,13 @@ Determine se você está estudando a metodologia, contribuindo para o ATLAS ofic
 10. [protocols/SESSION_CONTINUITY.md](protocols/SESSION_CONTINUITY.md) — continuidade e handoff.
 11. [protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md](protocols/PROJECT_DISCOVERY_AND_REGISTRATION.md) — descoberta de projetos.
 12. [governance/GOVERNANCE.md](governance/GOVERNANCE.md) — governança.
+13. [templates/README.md](templates/README.md) — selecione apenas os templates necessários à tarefa.
 
-Se um arquivo indicado não existir, registre-o como pendência; não invente seu conteúdo.
+Não é necessário ler todos os templates em toda sessão. Se um arquivo indicado não existir, registre-o como pendência; não invente seu conteúdo.
 
 ## 3. Reconstrua a autoridade antes de interpretar
 
-Inventarie as fontes acessíveis; identifique finalidade, origem, domínio, estado, relações, autoridade, versão, sincronização e permissões. Diferencie fonte oficial, espelho, cópia, arquivo histórico e memória operacional. Separe fatos, declarações, hipóteses, inferências e desconhecidos.
+Inventarie as fontes acessíveis; identifique finalidade, origem, domínio, estado, relações, autoridade, versão, sincronização e permissões. Diferencie fonte oficial, espelho, cópia, arquivo histórico e memória operacional. Separe fatos, declarações, hipóteses, inferências e desconhecidos. Quando houver múltiplas fontes relevantes, use o [modelo de mapa de fontes](templates/SOURCE_MAP_TEMPLATE.md) como apoio.
 
 ## 4. Preserve antes de modificar
 
