@@ -1,6 +1,6 @@
 # Especificação inicial do ATLAS_INDEX
 
-**Estado:** especificação conceitual; template executável será desenvolvido em lote posterior.
+**Estado:** especificação conceitual acompanhada por templates iniciais sujeitos a validação.
 
 ## 1. Finalidade
 
@@ -70,10 +70,18 @@ Fluxo esperado:
 6. seguir o protocolo de recuperação contextual no repositório do projeto;
 7. atualizar o índice apenas com autorização e evidência adequadas.
 
-## 9. Privacidade e segurança
+## 9. Templates iniciais
+
+- [Template do repositório ATLAS_INDEX](../templates/ATLAS_INDEX_TEMPLATE.md)
+- [Template do catálogo de projetos](../templates/PROJECT_REGISTRY_TEMPLATE.md)
+- [Template de registro detalhado de projeto](../templates/PROJECT_RECORD_TEMPLATE.md)
+
+Os modelos são opcionais e devem ser adaptados. O índice mínimo pode começar apenas com a identificação do proprietário e o catálogo, acrescentando registros detalhados quando necessário.
+
+## 10. Privacidade e segurança
 
 O usuário decide a visibilidade do índice. A escolha entre público e privado deve considerar se nomes, descrições e links revelam informações confidenciais. Projetos privados não devem ser expostos por metadados do índice.
 
-## 10. Evolução
+## 11. Evolução
 
 O formato inicial deve ser simples e legível por humanos e IAs. Automatizações, bancos de dados ou integrações podem ser acrescentados quando houver necessidade comprovada, sem tornar esses serviços pré-requisitos para o funcionamento básico.
