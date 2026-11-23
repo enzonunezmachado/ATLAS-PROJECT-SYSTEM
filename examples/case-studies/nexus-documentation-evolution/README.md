@@ -1,12 +1,12 @@
 # Estudo de caso — NEXUS: organização documental e rastreabilidade pós-teste
 
 **Tipo:** estudo de caso de aplicação e aprendizagem metodológica  
-**Data do registro:** 21/11/2026  
+**Data do registro:** 21/11/2026; atualizado em 22/11/2026  
 **Estado:** caso documentado; não constitui validação geral do ATLAS.
 
 ## Objetivo
 
-Registrar uma situação real de desenvolvimento em que a documentação do projeto precisou evoluir após a criação e exploração de backups com três perfis simulados. O caso evidencia a necessidade de separar experimento, evidência, problema, correção, ideia de produto, decisão e visão futura.
+Registrar uma situação real de desenvolvimento em que a documentação do projeto precisou evoluir após a criação e exploração de backups com três perfis simulados. O caso evidencia a necessidade de separar experimento, evidência, problema, correção, ideia de produto, decisão e visão futura, além de manter histórico contínuo das alterações documentais.
 
 ## Documentos
 
@@ -21,8 +21,9 @@ A documentação detalhada permanece no repositório do projeto NEXUS:
 - [Pasta do experimento no NEXUS-DOCUMENTACAO](https://github.com/enzonunezmachado/NEXUS-DOCUMENTACAO/tree/main/CHATGPT/TESTES/2026-11-21_TESTE_VIDAS_SIMULADAS)
 - [Registro pós-teste](https://github.com/enzonunezmachado/NEXUS-DOCUMENTACAO/tree/main/CHATGPT/TESTES/2026-11-21_TESTE_VIDAS_SIMULADAS/05_OBSERVACOES_POS_TESTE)
 - [Catálogo estratégico do NEXUS](https://github.com/enzonunezmachado/NEXUS-DOCUMENTACAO/blob/main/CHATGPT/03_IDEIAS_E_BRAINSTORMS.md)
+- [Histórico de mudanças documentais do repositório ativo](https://github.com/enzonunezmachado/PROJETO-NEXUS-/blob/main/docs/HISTORICO_DOCUMENTACAO.md)
 
-Os arquivos detalhados e os resultados operacionais pertencem ao NEXUS. Este estudo de caso é uma síntese derivada para aprendizagem metodológica, não uma cópia integral do projeto.
+Os arquivos detalhados e os resultados operacionais pertencem ao NEXUS. Este estudo de caso é uma síntese derivada para aprendizagem metodológica, não uma cópia integral do projeto. O changelog do ATLAS oficial não é usado para registrar mudanças específicas do NEXUS.
 
 ## Limites
 
@@ -31,5 +32,6 @@ Os arquivos detalhados e os resultados operacionais pertencem ao NEXUS. Este est
 - A presença dos JSONs no repositório ativo foi conferida.
 - A exploração inicial de Gabriel foi relatada pelo responsável do projeto.
 - O defeito de rotação foi relatado pelo usuário; sua causa técnica não foi investigada neste estudo.
+- Em 22/11/2026, o usuário relatou novamente o defeito de rotação após testar a versão com alterações visuais/adaptativas; BUG-001 continua aberto.
 - Nenhuma correção de software foi implementada por esta atividade documental.
 - O caso demonstra uma necessidade concreta de organização e rastreabilidade; não demonstra que a metodologia ATLAS já resolve o problema.
