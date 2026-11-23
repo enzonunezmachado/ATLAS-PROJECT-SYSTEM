@@ -32,6 +32,14 @@ O relatório do Google AI Studio foi registrado como relato recebido. A explora�
 
 O caso detalhado pertence ao NEXUS. O ATLAS recebe uma síntese metodológica. Critérios internos de avaliação de uma futura prova do ATLAS não devem ser expostos automaticamente às IAs que utilizam a metodologia.
 
+### 8. Mudanças documentais precisam de um histórico contínuo, não apenas histórico metodológico
+
+No NEXUS, foi identificado um arquivo existente — `docs/HISTORICO_DOCUMENTACAO.md` — que originalmente descrevia mudanças no modelo documental. A necessidade operacional evoluiu: registrar ali todos os lotes relevantes de atualização em `/docs/`, inclusive correções de estado, pesquisas, rastreabilidade e alterações de especificação.
+
+O aprendizado para o ATLAS é que cada projeto pode escolher um registro central de mudanças documentais adequado à sua estrutura. A metodologia deve ensinar a descobrir e reutilizar o registro existente, ampliar seu escopo com cuidado quando necessário e manter entradas com motivação, evidência, caminhos afetados, mudanças, limites e próximos passos. Isso evita que a evolução do conhecimento fique espalhada entre conversas e commits sem explicação.
+
+O histórico detalhado permanece no repositório NEXUS; o estudo de caso guarda somente esta síntese e a referência para a fonte. Não se deve impor o nome `HISTORICO_DOCUMENTACAO.md` a todos os projetos.
+
 ## Questões para pesquisa no ATLAS
 
 1. O modelo de memória deve sugerir classes de registro como observação, defeito, ideia, decisão, execução e validação, sem impor arquivos fixos?
@@ -43,6 +51,8 @@ O caso detalhado pertence ao NEXUS. O ATLAS recebe uma síntese metodológica. C
 7. Como distinguir relato humano, resultado de ferramenta, inspeção direta e validação independente?
 8. Como manter exemplos públicos sem vazar dados privados de projetos?
 9. Como avaliar a utilidade dessa estrutura em projetos não relacionados a software?
+10. Como descobrir se um projeto já tem um changelog, histórico documental ou registro de decisões antes de criar um novo?
+11. Como garantir que toda alteração documental relevante seja registrada sem transformar cada pequena edição em burocracia excessiva?
 
 ## Limite metodológico
 
